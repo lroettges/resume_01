@@ -1,0 +1,21 @@
+table.header {
+	border-collapse:collapse;
+	border: 1px solid black;
+	width:100%;
+	padding:10px;
+}
+tr {
+	text-align: center;
+}
+h3 {
+	text-align: left;
+	padding:0px 0px 0px 0px;
+}
+ul {
+	padding:0px 0px 0px 5%;
+}
+li.topic {
+	list-style-type: none;
+	font-weight: bold;
+	font-style: italic;
+}
