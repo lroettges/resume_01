@@ -1,12 +1,58 @@
+h1 {
+	 width: 100%;
+	padding:0% 100% 0% 0%;
+	margin: 10px 0px;
+	background-color: #fff0f5;
+	 color: #D0D0D0;
+	 font-size: 300%;
+	 height:200%;
+}
 table.header {
 	border-collapse:collapse;
 	border: 1px solid black;
 	width:100%;
-	padding:10px;
+	padding:100px;
+	background-color: #ffe4e1;
 }
 tr {
 	text-align: center;
 }
+
+img {
+	max-width: 20%;
+	opacity: .7;
+	vertical-align: text-bottom;
+}
+div {
+	width: 45%;
+	float: left;
+	margin-bottom: 25px;
+}
+div.edu {
+	background-color:#fff0f5;
+	margin-right: 25px;
+
+}
+div.exp {
+	background-color:#fff0f5;
+}
+div.com_serv {
+	background-color:#fff0f5;
+	margin: 0% ;
+
+}
+div.HnA {
+	background-color:#fff0f5;
+	margin: 0% ;
+
+}
+div.sklz {
+	background-color:#fff0f5;
+	margin: 0%;
+
+}
+
+
 h3 {
 	text-align: left;
 	padding:0px 0px 0px 0px;
@@ -14,8 +60,10 @@ h3 {
 ul {
 	padding:0px 0px 0px 5%;
 }
-li.topic {
+li {
 	list-style-type: none;
+}
+li.topic {
 	font-weight: bold;
 	font-style: italic;
 }
