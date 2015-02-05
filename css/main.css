@@ -48,17 +48,15 @@ div {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	
 }
 div.edu {
 	margin: 0%;
 	padding: 20% 12.5% 20% 12.5%;
-	float: left;
 	max-width: 25%;
 	background-position: center;
-	overflow: hidden;
-	display: inline-block;
-	background-color: red;
+	/*overflow: hidden;*/
+	/*display: inline-block;*/
+	/*background-color: red;*/
 	min-height: 450px;
 
 }
@@ -76,10 +74,10 @@ div.sklz {
 	padding: 20% 12.5% 20% 12.5%;
 	max-width: 25%;
 	background-position: center;
-	background-color: red;
-	position: relative;
+	/*background-color: red;*/
+	/*position: relative;
 	top: 100px;
-	overflow: hidden;
+	overflow: hidden;*/
 
 }
 div.sklz div {
@@ -91,27 +89,25 @@ div.sklz h3 {
 	text-align: center;
 	
 }
-
+div.exp, div.com_serv, div.HnA {
+	width: 45%
+}
 div.exp {
 	padding:0% 100% 0% 0%;
 	margin: 300px 100% 0px -5%;
 }
+div.exp h3, div.com_serv h3, div.HnA h3{
+	border: solid;
+	border-width: 1px;
+	padding: 2px 0px;
+	}
 
 div.com_serv {
 	padding:0% 100% 0% 0%;
 	margin: 0px 100% 0px -5%;
 }
 
-div.com_serv h3{
-	
-	}
-
 div.HnA {
 	padding:0% 100% 0% 0%;
 	margin: 0px 100% 0px -5%;
 }
-div.HnA h3{
-	
-	}
-
-
