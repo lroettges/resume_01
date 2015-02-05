@@ -63,6 +63,7 @@ div.edu {
 div.edu div {
 	width: 99%;
 	position: center;
+	padding-top: 50%;
 }
 div.edu h3 {
 	margin: 0px;
@@ -83,6 +84,7 @@ div.sklz {
 div.sklz div {
 	width: 99%;
 	position: center;
+	padding-top: 50%;
 }
 div.sklz h3 {
 	margin: 0px;
