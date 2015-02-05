@@ -1,3 +1,8 @@
+body {
+	background-color: #fff0f5;
+
+}
+
 h1 {
 	 width: 100%;
 	padding:0% 100% 0% 0%;
@@ -16,43 +21,8 @@ table.header {
 }
 tr {
 	text-align: center;
+	margin: 0px;
 }
-
-img {
-	max-width: 20%;
-	opacity: .7;
-	vertical-align: text-bottom;
-}
-div {
-	width: 45%;
-	float: left;
-	margin-bottom: 25px;
-}
-div.edu {
-	background-color:#fff0f5;
-	margin-right: 25px;
-
-}
-div.exp {
-	background-color:#fff0f5;
-}
-div.com_serv {
-	background-color:#fff0f5;
-	margin: 0% ;
-
-}
-div.HnA {
-	background-color:#fff0f5;
-	margin: 0% ;
-
-}
-div.sklz {
-	background-color:#fff0f5;
-	margin: 0%;
-
-}
-
-
 h3 {
 	text-align: left;
 	padding:0px 0px 0px 0px;
@@ -67,3 +37,81 @@ li.topic {
 	font-weight: bold;
 	font-style: italic;
 }
+img.me {
+	max-width: 20%;
+	opacity: .7;
+	vertical-align: text-bottom;
+}
+
+div {
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	
+}
+div.edu {
+	margin: 0%;
+	padding: 20% 12.5% 20% 12.5%;
+	float: left;
+	max-width: 25%;
+	background-position: center;
+	overflow: hidden;
+	display: inline-block;
+	background-color: red;
+	min-height: 450px;
+
+}
+div.edu div {
+	width: 99%;
+	position: center;
+}
+div.edu h3 {
+	margin: 0px;
+	text-align: center;	
+}
+div.sklz {
+	min-height: 450px;
+	margin: 0%;
+	padding: 20% 12.5% 20% 12.5%;
+	max-width: 25%;
+	background-position: center;
+	background-color: red;
+	position: relative;
+	top: 100px;
+	overflow: hidden;
+
+}
+div.sklz div {
+	width: 99%;
+	position: center;
+}
+div.sklz h3 {
+	margin: 0px;
+	text-align: center;
+	
+}
+
+div.exp {
+	padding:0% 100% 0% 0%;
+	margin: 300px 100% 0px -5%;
+}
+
+div.com_serv {
+	padding:0% 100% 0% 0%;
+	margin: 0px 100% 0px -5%;
+}
+
+div.com_serv h3{
+	
+	}
+
+div.HnA {
+	padding:0% 100% 0% 0%;
+	margin: 0px 100% 0px -5%;
+}
+div.HnA h3{
+	
+	}
+
+
